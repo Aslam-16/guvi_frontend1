@@ -5,7 +5,7 @@ render(){
 
 <div class="main">
   <h4 class="heading"style={{paddingRight: 960,paddingLeft: 0,marginBottom: 0}}>Query Section</h4>
-<hr size="2" width="90%" color="black"style={{paddingLeft: 110}}/>  
+<hr size="2" width="80%" color="black"style={{paddingLeft: 110}}/>  
 <table class="tablesmall">
   <tr>
   <th colspan="2"style={{width:1100}}>Next Query Session</th>
@@ -24,10 +24,7 @@ render(){
     paddingLeft: 7
 }}>Topic: Angular</p></td></tr>
 </table>
-<h6 colspan="2" style={{
-    height: 30,
-    paddingTop: 5
-}}>History Of Queries</h6>
+<h6  style={{height: 30,paddingTop: 5}}>History Of Queries</h6>
  <div class="container">
   <ul class="responsive-table">
     <li class="table-header">
