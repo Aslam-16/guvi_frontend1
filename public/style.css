@@ -8,7 +8,9 @@ html {
       padding-left: 100px;
       color: #252121;
      font-size: 25px;
-     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     margin-left: auto;
+     margin-right: auto;
 
 }
 .logo{
