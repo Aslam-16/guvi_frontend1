@@ -5,8 +5,8 @@ render(){
 
 <div class="main">
   <h4 class="heading"style={{paddingRight: 960,paddingLeft: 0,marginBottom: 0}}>Query Section</h4>
-<hr size="2" width="80%" color="black"style={{paddingLeft: 110}}/>  
-<table class="tablesmall">
+    <hr size="2" width="80%" color="black"style={{paddingLeft: 110}}/>  
+{/* <table class="tablesmall">
   <tr>
   <th colspan="2"style={{width:1100}}>Next Query Session</th>
   </tr>
@@ -23,7 +23,23 @@ render(){
 <p style={{
     paddingLeft: 7
 }}>Topic: Angular</p></td></tr>
-</table>
+</table> */}
+<h6  style={{height: 30,paddingTop: 5}}>Next Query Section</h6>
+<ul class="responsive-table">
+   <li class="table-row1">
+      <div class="col col-1"><iframe class="youtube"  src="https://www.youtube.com/embed/il_t1WVLNxk"> </iframe></div>
+    </li>
+ </ul>
+<ul class="responsive-table2">
+  <li class="table-row1"style={{
+    paddingTop: 0,
+    paddingBottom: 0,
+    paddingLeft: 0,
+    paddingRight: 0}}><div class="col col-1">Date : 30/12/2020</div>
+      <div class="col col-4">Time : Evening 6 to 7 pm</div>
+      <div class="col col-5">Topic  : Angular</div>
+  </li>
+</ul>
 <h6  style={{height: 30,paddingTop: 5}}>History Of Queries</h6>
  <div class="container">
   <ul class="responsive-table">
