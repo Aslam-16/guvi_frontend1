@@ -4,80 +4,60 @@ render(){
     return (
 
 <div class="main">
-   <div id="#query">
-  <h3 class="heading"style={{paddingRight: 900,paddingLeft: 0}}>Query Section</h3>
-<hr size="10" width="90%" color="black"style={{paddingLeft: 110}}/>  
+  <h4 class="heading"style={{paddingRight: 960,paddingLeft: 0,marginBottom: 0}}>Query Section</h4>
+<hr size="2" width="90%" color="black"style={{paddingLeft: 110}}/>  
 <table class="tablesmall">
   <tr>
   <th colspan="2"style={{width:1100}}>Next Query Session</th>
   </tr>
-  <tr><td ><iframe class="youtube"  src="https://www.youtube.com/embed/il_t1WVLNxk"> </iframe> </td>
-<td><p>date:30/12/2020</p>
-<p>Time:Evening 6 to 7 pm</p>
-<p>Topic: Angular</p></td></tr>
+  <tr><td style={{
+    paddingBottom: 10,
+    paddingTop: 30}}
+><iframe class="youtube"  src="https://www.youtube.com/embed/il_t1WVLNxk"> </iframe> </td>
+<td style={{width: 600}}><p style={{
+    paddingLeft:25
+}}>Date:30/12/2020</p>
+<p style={{
+    paddingLeft: 80
+}}>Time:Evening 6 to 7 pm</p>
+<p style={{
+    paddingLeft: 7
+}}>Topic: Angular</p></td></tr>
 </table>
-<h4 colspan="2">History Of Queries</h4>
-  <table class="tablelong">
-  <tr>
-  <th >Date</th>
-  <th>Ticket Name</th>
-  <th  colspan="2">Description</th>
-  <th>Type</th>
-  <th>Status</th>
-  </tr>
-  <tr>
-  <td>
-   20/1/2021
-  </td>
-   <td >
-    React
-  </td>
-   <td colspan="2">
-    What is React?
-  </td>
-   <td >
-    Objective
-  </td>
-   <td class="red">
-    Yet To Open
-  </td>
-  </tr>
-  <tr>
-  <td>
-   20/1/2021
-  </td>
-   <td >
-    Javascript
-  </td>
-   <td colspan="2">
-    What is Javascript?
-  </td>
-   <td >
-    Subjective
-  </td>
-   <td class="green">
-    Answered
-  </td>
-  </tr>
-   <tr>
-  <td>
-   20/1/2021
-  </td>
-   <td >
-    Angular
-  </td>
-   <td colspan="2">
-    What is Angular?
-  </td>
-   <td >
-    Descriptive
-  </td>
-   <td class="violet">
-    Processing
-  </td>
-  </tr>
-</table>
-</div></div>
+<h6 colspan="2">History Of Queries</h6>
+ <div class="container">
+  <ul class="responsive-table">
+    <li class="table-header">
+      <div class="col col-1">Date</div>
+      <div class="col col-2">Ticket Name</div>
+      <div class="col col-3">Description</div>
+      <div class="col col-4">Type</div>
+      <div class="col col-5">Status</div>
+    </li>
+    <li class="table-row">
+      <div class="col col-1" data-label="Date">20/1/2021</div>
+      <div class="col col-2" data-label="Ticket Name">Javascript</div>
+      <div class="col col-3" style={{width:200}} data-label="Description">What Is Javascript</div>
+      <div class="col col-4" data-label="Type"style={{paddingRight:5}}>Subjective</div>
+      <div class="col col-5" data-label="Status"class="green">Answered</div>
+    </li>
+    <li class="table-row">
+      <div class="col col-1" data-label="Date">21/1/2021</div>
+      <div class="col col-2" data-label="Ticket Name">Angular</div>
+      <div class="col col-3" data-label="Description">What is Angular</div>
+      <div class="col col-4" data-label="Type">Descriptive</div>
+      <div class="col col-5" data-label="Status" class="violet">Processing</div>
+    </li>
+    <li class="table-row">
+      <div class="col col-1" data-label="Date">22/1/2021</div>
+      <div class="col col-2" data-label="Ticket Name">React</div>
+      <div class="col col-3" data-label="Description">What is React</div>
+      <div class="col col-4" data-label="Type">Objective</div>
+      <div class="col col-5" data-label="Status"class="red">Not Answered</div>
+    </li>
+  </ul>
+</div>
+</div>
     )
 }
 }
