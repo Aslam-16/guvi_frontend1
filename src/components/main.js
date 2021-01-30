@@ -24,7 +24,10 @@ render(){
     paddingLeft: 7
 }}>Topic: Angular</p></td></tr>
 </table>
-<h6 colspan="2">History Of Queries</h6>
+<h6 colspan="2" style={{
+    height: 30,
+    paddingTop: 5
+}}>History Of Queries</h6>
  <div class="container">
   <ul class="responsive-table">
     <li class="table-header">
