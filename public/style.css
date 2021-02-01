@@ -19,9 +19,9 @@ body{
       
     
 }
-/* .logo{
-      color: "white";
-} */
+.logo{
+      float:left;
+}
 .tablesmall{
   width:100;
   border: '1px solid white';
@@ -89,14 +89,19 @@ h6{
   position:absolute;
   top: 0;
   background-color:white;
-  padding-top: 20px;
-  height:695px
+  height:695px;
+  margin-top: 90px;
+  padding-top: 0px;
+
 }
 
 .sidenav a {
-  padding: 6px 8px 6px 16px;
+
+  padding: 6px 40px 6px 16px;
   text-decoration: none;
   font-size: 25px;
+  padding-right: 40px;
+
  
   color: #818181;
       font-family: Cambria,
@@ -125,8 +130,11 @@ h6{
     float:right;
   }
   .top {
-   width: 170px;
-   height: 70px;
+   height: 58px;
+   padding-left: 30px;
+   width: 120px;
+   padding-top: 10px;
+
 
 
   }
@@ -136,18 +144,7 @@ h6{
     font-size: 28px;
     padding: 12px 10px;
   }
-table,
-th,
-td {
-  border: 1px solid black;
- 
-  border-collapse: collapse;
-  font-family:'Times New Roman',
-  Times,
-  serif;
-  font-size: 20px;
-  
-}
+/*  */
 p{
   font-family:'Times New Roman',
   Times,
@@ -316,4 +313,86 @@ footer{
     padding-top: 10px;
      font-weight: bold;
 
+}
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+ box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+ font-family: 'Times New Roman',
+ Times,
+ serif;
+}
+/* .styled-table thead tr {
+  color: #ffffff;
+  text-align: left;
+  font-size: 20;
+
+} */
+
+.styled-table td {
+  padding: 12px 15px;
+  text-align: center;
+  font-size: 20;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+  font-size: 20;
+}
+
+/* .styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+  font-size: 20;
+} */
+
+/* .styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879; 
+   font-size: 20;
+} */
+.heading{
+  text-align: center;
+  padding-left: 80px;
+}
+.tableheading th {
+  text-align: left;
+ margin-top: 0px;
+ margin-bottom: 0px;
+  font-family: Arial,
+  Helvetica,
+  sans-serif;
+  font-weight: normal;
+  font-size:17px;
+  text-align: left;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  color: rgb(138, 9, 138)
+
+}
+.styled-table tbody tr.active-row {
+  color:black;
+  font-family: Arial,
+  Helvetica,
+  sans-serif;
+  font-size: 15px;
+}
+.active-head th{
+  color:#252121;
+font-size: 15px;
+color: #ffffff;
+  text-align: center;
+  color: rgb(185, 171, 171);
+ padding: 12px 15px;
+ text-align: center;
+ border-bottom: 1px solid black;
+ font-weight: normal;
+}
+.column{
+  background-color: #f3f3f3;
+}
+.click{
+  background-color: #751b36;
+  color:white;
 }

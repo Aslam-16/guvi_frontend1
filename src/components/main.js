@@ -24,7 +24,7 @@ render(){
     paddingLeft: 7
 }}>Topic: Angular</p></td></tr>
 </table>  */}
-<h6  style={{height: 30,paddingTop: 5}}>Next Query Section</h6>
+{/* <h6  style={{height: 30,paddingTop: 5}}>Next Query Section</h6>
 <ul class="responsive-table">
    <li class="table-row1">
       <div class="col col-1"><iframe class="youtube"  src="https://www.youtube.com/embed/il_t1WVLNxk"> </iframe></div>
@@ -35,9 +35,42 @@ render(){
       <div class="col col-4">Time : Evening 6 to 7 pm</div>
       <div class="col col-5">Topic  : Angular</div>
   </li>
-</ul>
-<h6  style={{height: 30,paddingTop: 5}}>History Of Queries</h6>
- <div class="container">
+</ul> */}
+<table class="styled-table"style={{width:999}}>
+  <thead class="tableheading" >
+            <th style={{textAlign:'left'}}colspan="2" class="column">Next Query Session</th>
+  </thead>
+  {/* <thead>
+        <tr class="active-row">
+            <th>History of Queries</th> 
+        </tr>
+    </thead> */}
+    {/* <thead class="active-head">
+        <tr class="active-head">
+            <th>Date</th>
+            <th class="column">Ticket Name</th>
+            <th colspan="2">Description</th>
+            <th class="column">Type</th>
+            <th>Status</th>
+        </tr>
+    </thead> */}
+    <tbody style={{fontSize:20}}>
+        <tr class="active-row">
+            <td><iframe class="youtube"  src="https://www.youtube.com/embed/il_t1WVLNxk"> </iframe></td>
+        <td style={{width: 600}}><p style={{
+    paddingLeft:25
+}}>Date&nbsp;&nbsp;30/12/2020</p>
+<p style={{
+    paddingLeft: 65
+}}>Time&nbsp;&nbsp;Evening 6 to 7 pm</p>
+<p style={{
+    paddingLeft: 7
+}}>Topic&nbsp;&nbsp;Angular</p></td>
+        </tr>
+    </tbody>
+</table>
+{/* <h6  style={{height: 30,paddingTop: 5}}>History Of Queries</h6> */}
+ {/* <div class="container">
   <ul class="responsive-table">
     <li class="table-header">
       <div class="col col-1">Date</div>
@@ -68,7 +101,46 @@ render(){
       <div class="col col-5" data-label="Status"class="red">Not Answered</div>
     </li>
   </ul>
-</div>
+</div> */}
+
+<table class="styled-table"style={{width:999}}>
+  <thead class="tableheading">
+            <th style={{textAlign:'left'}}colspan="6" class="column">History Of Queries</th>
+  </thead>
+    <thead class="active-head">
+        <tr class="active-head">
+            <th>Date</th>
+            <th class="column">Ticket Name</th>
+            <th colspan="2">Description</th>
+            <th class="column">Type</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody style={{fontSize:20}}>
+        <tr class="active-row">
+            <td>20/1/2021</td>
+            <td class="column">Javascript</td>
+            <td colspan="2">What Is Javascript</td>
+            <td class="column"> Subjective</td>
+            <td class="green">Answered</td>
+        </tr>
+        <tr class="active-row">
+            <td>21/1/2021</td>
+            <td class="column">Angular</td>
+            <td colspan="2">What is Angular</td>
+            <td class="column">Descriptive</td>
+            <td class="violet">Processing</td>
+        </tr>
+        <tr class="active-row">
+            <td>22/1/2021</td>
+            <td class="column">React</td>
+            <td colspan="2">What is React</td>
+            <td class="column">Objective</td>
+            <td class="red">Not Answered</td>
+        </tr>
+    </tbody>
+</table>
+<button type="button" class="click">Create Ticket</button>
 </div>
     )
 }
