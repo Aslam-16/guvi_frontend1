@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
 
-class Main extends React.Component{
+class Dashboard extends React.Component{
 render(){
     return (
 
-<div class="main"style={{paddingLeft: 30}}>
-  <p  class="line">Query Section</p>
+<div class="main"style={{paddingLeft: 30
+}}>
+  <p  class="line"style={{
+    width: 300
+}}>Dashboard Section</p>
     
  
 <table class="styled-table"style={{width:999}}>
   <thead class="tableheading" >
-            <th style={{textAlign:'left'}}colspan="2" class="column">Next Query Session</th>
+            <th style={{textAlign:'left'}}colspan="2" class="column">Dashboard</th>
   </thead>
     <tbody style={{fontSize:20}}>
         <tr class="active-row">
@@ -29,7 +32,7 @@ render(){
 </table>
 <table class="styled-table"style={{width:999}}>
   <thead class="tableheading">
-            <th style={{textAlign:'left'}}colspan="6" class="column">History Of Queries</th>
+            <th style={{textAlign:'left'}}colspan="6" class="column">History Of Dashboard</th>
   </thead>
     <thead class="active-head">
         <tr class="active-head">
@@ -69,4 +72,4 @@ render(){
     )
 }
 }
-export default Main;
+export default Dashboard;
