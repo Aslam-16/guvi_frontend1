@@ -6,7 +6,7 @@ render(){
 
 <div class="main"style={{paddingLeft: 30}}>
   <p  class="line"style={{
-    width: 240
+    width: 240,paddingRight:700
 }}>Calender Section</p>
     
  <img src="download.jpeg"/>

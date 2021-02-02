@@ -6,7 +6,7 @@ render(){
 
 <div class="main"style={{paddingLeft: 30}}>
   <p  class="line"style={{
-    width: 240
+    width: 240,paddingRight:700
 }}>Class Section</p>
     
  <img src="clas.jpg"/>

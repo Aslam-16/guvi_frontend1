@@ -7,7 +7,7 @@ render(){
 <div class="main"style={{paddingLeft: 30
 }}>
   <p  class="line"style={{
-    width: 300
+    width: 300,paddingRight:700
 }}>Dashboard Section</p>
     
  

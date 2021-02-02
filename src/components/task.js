@@ -6,7 +6,7 @@ render(){
 
 <div class="main"style={{paddingLeft: 30}}>
   <p  class="line"style={{
-    width: 180
+    width: 180,paddingRight:700
 }}>Task Section</p>
     
  <img src="t.png"/>
