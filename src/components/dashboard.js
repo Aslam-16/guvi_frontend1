@@ -7,67 +7,231 @@ render(){
 <div class="main"style={{paddingLeft: 30
 }}>
   <p  class="line"style={{
-    width: 300,paddingRight:700
-}}>Dashboard Section</p>
-    
+    width: 300,paddingRight:640
+}}>Dashboard</p>
+<div
+    style={{height: 50}}
+>
+<div class="barcent">
+  <p class ="barhead">Overall Progress<span style={{paddingLeft: 263}}>35%</span></p>
  
-<table class="styled-table"style={{width:999}}>
-  <thead class="tableheading" >
-            <th style={{textAlign:'left'}}colspan="2" class="column">Dashboard</th>
-  </thead>
-    <tbody style={{fontSize:20}}>
-        <tr class="active-row">
-            <td><iframe class="youtube"  src="https://www.youtube.com/embed/il_t1WVLNxk"> </iframe></td>
-        <td style={{width: 600}}><p style={{
-    paddingLeft:25
-}}>Date&nbsp;&nbsp;30/12/2020</p>
-<p style={{
-    paddingLeft: 65
-}}>Time&nbsp;&nbsp;Evening 6 to 7 pm</p>
-<p style={{
-    paddingLeft: 7
-}}>Topic&nbsp;&nbsp;Angular</p></td>
-        </tr>
-    </tbody>
-</table>
-<table class="styled-table"style={{width:999}}>
-  <thead class="tableheading">
-            <th style={{textAlign:'left'}}colspan="6" class="column">History Of Dashboard</th>
-  </thead>
-    <thead class="active-head">
-        <tr class="active-head">
-            <th>Date</th>
-            <th class="column">Ticket Name</th>
-            <th colspan="2">Description</th>
-            <th class="column">Type</th>
-            <th>Status</th>
-        </tr>
-    </thead>
-    <tbody style={{fontSize:20}}>
-        <tr class="active-row">
-            <td>20/1/2021</td>
-            <td class="column">Javascript</td>
-            <td colspan="2">What Is Javascript</td>
-            <td class="column"> Subjective</td>
-            <td class="green">Answered</td>
-        </tr>
-        <tr class="active-row">
-            <td>21/1/2021</td>
-            <td class="column">Angular</td>
-            <td colspan="2">What is Angular</td>
-            <td class="column">Descriptive</td>
-            <td class="violet">Processing</td>
-        </tr>
-        <tr class="active-row">
-            <td>22/1/2021</td>
-            <td class="column">React</td>
-            <td colspan="2">What is React</td>
-            <td class="column">Objective</td>
-            <td class="red">Not Answered</td>
-        </tr>
-    </tbody>
-</table>
-<button type="button" class="click">Create Ticket</button>
+
+<div class="progress">
+	<div class="bar" style={{width:70}}>
+  </div>
+  </div>
+  </div>
+  <div class="barcent"style={{marginLeft: 140}}>
+  <p class ="barhead">Attendance<span style={{paddingLeft: 287}}>60%</span></p>
+
+<div class="progress">
+    <div class="bargreen" style={{width:50}}>
+    </div>
+  </div>
+  </div>
+  </div>
+ 
+  
+
+
+<div class="styled-table-outer">
+  <div class="tableheading" >
+<p  class ="headbar"colspan="4" >Codekata<span class="week">Weekly</span><span class="once">Daily</span><span class="codekata"><img src="codekata.png"></img></span></p>
+
+  </div>
+   <p class="centre">3rd Week</p>
+<div class="styled-table-dashboardinner">
+  
+<ul class="yAxis">
+	<li>25</li>
+	<li>20</li>
+	<li>15</li>
+	<li>10</li>
+	<li>05</li>
+
+</ul>
+	<div class="columns">
+  <div class="column-container" style={{paddingLeft:20}}>
+    <div class="column-bar series-b" style={{flexBasis: 200}}></div>
+    <div class="column-bar series-a" style={{flexBasis: 160}}></div>
+  </div>
+  <div class="column-container" > 
+    <div class="column-bar series-b" style={{flexBasis: 180}}></div>
+    <div class="column-bar series-a" style={{flexBasis: 140}}></div>
+  </div>
+  <div class="column-container">
+    <div class="column-bar series-b" style={{flexBasis: 180}}></div>
+    <div class="column-bar series-a" style={{flexBasis: 170}}></div>
+  </div>
+  <div class="column-container">
+    <div class="column-bar series-b" style={{flexBasis: 180}}></div>
+    <div class="column-bar series-a" style={{flexBasis: 60}}></div>
+  </div>
+  <div class="column-container">
+    <div class="column-bar series-b" style={{flexBasis: 180}}></div>
+    <div class="column-bar series-a" style={{flexBasis: 92}}></div>
+  </div>
+  <div class="column-container">
+    <div class="column-bar series-b" style={{flexBasis: 180}}></div>
+    <div class="column-bar series-a" style={{flexBasis: 130}}></div>
+  </div>
+  <div class="column-container">
+    <div class="column-bar series-b" style={{flexBasis: 180}}></div>
+    <div class="column-bar series-a" style={{flexBasis: 10}}></div>
+  </div>
+</div>
+<ul class="xAxis">
+	<li style={{paddingLeft: 41
+}}>Mon</li>
+	<li style={{paddingLeft: 15
+}}>Tue</li>
+	<li style={{paddingLeft: 10
+}}>Wed</li>
+	<li style={{paddingLeft: 15
+}}>Thu</li>
+	<li style={{paddingLeft: 13
+}}>Fri</li>
+	<li style={{paddingLeft: 10
+}}>Sat</li>
+	<li style={{paddingLeft: 13
+}}>Sun</li>
+	
+</ul>
+</div>
+</div>
+<div class="styled-table-outer"style={{marginLeft: 20
+}}>
+  <div class="tableheading" >
+<p  class ="headbar"colspan="4" >Webkata<span class="week">Weekly</span><span class="once">Daily</span><span class="codekata"><img src="codekata.png"></img></span></p>
+
+  </div>
+   <p class="centre">Week Stats</p>
+<div class="styled-table-dashboardinner" >
+<ul class="yAxis">
+	<li>25</li>
+	<li>20</li>
+	<li>15</li>
+	<li>10</li>
+	<li>05</li>
+
+</ul>
+	<div class="columns">
+  <div class="column-container" style={{paddingLeft:20}}>
+    <div class="column-bar series-b" style={{flexBasis: 200}}></div>
+    <div class="column-bar series-a" style={{flexBasis: 160}}></div>
+  </div>
+  <div class="column-container" > 
+    <div class="column-bar series-b" style={{flexBasis: 180}}></div>
+    <div class="column-bar series-a" style={{flexBasis: 140}}></div>
+  </div>
+  <div class="column-container">
+    <div class="column-bar series-b" style={{flexBasis: 180}}></div>
+    <div class="column-bar series-a" style={{flexBasis: 170}}></div>
+  </div>
+  <div class="column-container">
+    <div class="column-bar series-b" style={{flexBasis: 180}}></div>
+    <div class="column-bar series-a" style={{flexBasis: 60}}></div>
+  </div>
+  <div class="column-container">
+    <div class="column-bar series-b" style={{flexBasis: 180}}></div>
+    <div class="column-bar series-a" style={{flexBasis: 92}}></div>
+  </div>
+  <div class="column-container">
+    <div class="column-bar series-b" style={{flexBasis: 180}}></div>
+    <div class="column-bar series-a" style={{flexBasis: 130}}></div>
+  </div>
+  <div class="column-container">
+    <div class="column-bar series-b" style={{flexBasis: 180}}></div>
+    <div class="column-bar series-a" style={{flexBasis: 10}}></div>
+  </div>
+</div>
+<ul class="xAxis">
+	<li style={{paddingLeft: 41
+}}>Mon</li>
+	<li style={{paddingLeft: 15
+}}>Tue</li>
+	<li style={{paddingLeft: 10
+}}>Wed</li>
+	<li style={{paddingLeft: 15
+}}>Thu</li>
+	<li style={{paddingLeft: 13
+}}>Fri</li>
+	<li style={{paddingLeft: 10
+}}>Sat</li>
+	<li style={{paddingLeft: 13
+}}>Sun</li>
+	
+</ul>
+</div>
+</div>
+<div class="styled-table-outer"style={{marginLeft: 20
+}}>
+  <div class="tableheading" >
+<p  class ="headbar"colspan="4" >Micro Arc<span class="week">1st Week</span><span class="once">Daily</span><span class="codekata"><img src="codekata.png"></img></span></p>
+
+  </div>
+   <p class="centre">3rd Week</p>
+<div class="styled-table-dashboardinner">
+<ul class="yAxis">
+	<li>25</li>
+	<li>20</li>
+	<li>15</li>
+	<li>10</li>
+	<li>05</li>
+
+</ul>
+	<div class="columns">
+  <div class="column-container" style={{paddingLeft:20}}>
+    <div class="column-bar series-b" style={{flexBasis: 200}}></div>
+    <div class="column-bar series-a" style={{flexBasis: 160}}></div>
+  </div>
+  <div class="column-container" > 
+    <div class="column-bar series-b" style={{flexBasis: 180}}></div>
+    <div class="column-bar series-a" style={{flexBasis: 140}}></div>
+  </div>
+  <div class="column-container">
+    <div class="column-bar series-b" style={{flexBasis: 180}}></div>
+    <div class="column-bar series-a" style={{flexBasis: 170}}></div>
+  </div>
+  <div class="column-container">
+    <div class="column-bar series-b" style={{flexBasis: 180}}></div>
+    <div class="column-bar series-a" style={{flexBasis: 60}}></div>
+  </div>
+  <div class="column-container">
+    <div class="column-bar series-b" style={{flexBasis: 180}}></div>
+    <div class="column-bar series-a" style={{flexBasis: 92}}></div>
+  </div>
+  <div class="column-container">
+    <div class="column-bar series-b" style={{flexBasis: 180}}></div>
+    <div class="column-bar series-a" style={{flexBasis: 130}}></div>
+  </div>
+  <div class="column-container">
+    <div class="column-bar series-b" style={{flexBasis: 180}}></div>
+    <div class="column-bar series-a" style={{flexBasis: 10}}></div>
+  </div>
+</div>
+<ul class="xAxis">
+	<li style={{paddingLeft: 41
+}}>Mon</li>
+	<li style={{paddingLeft: 15
+}}>Tue</li>
+	<li style={{paddingLeft: 10
+}}>Wed</li>
+	<li style={{paddingLeft: 15
+}}>Thu</li>
+	<li style={{paddingLeft: 13
+}}>Fri</li>
+	<li style={{paddingLeft: 10
+}}>Sat</li>
+	<li style={{paddingLeft: 13
+}}>Sun</li>
+	
+</ul>
+</div>
+</div>
+
+
+
 </div>
     )
 }
