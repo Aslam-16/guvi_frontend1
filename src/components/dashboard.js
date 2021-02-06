@@ -40,7 +40,8 @@ render(){
 	<li>05</li>
 
 </ul><div class="columns1">
-  <div class="line-chart-block block"><div class="line-chart">
+<div class="line-chart-block block">
+  <div class="line-chart">
    <div class='grafico'>
      <span data-valor='25'>
        <span data-valor='8'>
@@ -49,13 +50,16 @@ render(){
              <span data-valor='23'>   
              <span data-valor='12'>
                  <span data-valor='15'>
-                 </span></span></span></span></span></span></span>
+                 </span>
+              </span>
+            </span>
+          </span>
+        </span>
+       </span>
+      </span>
    </div>
- 
-
-              </div>
-            
-            </div> </div><ul class="xAxis1" style={{width:634}}>
+  </div>
+</div> </div><ul class="xAxis1" style={{width:634}}>
 	<li style={{marginLeft: 50}}>1st</li>
 	<li >2nd</li>
 	<li >3rd</li>
@@ -72,7 +76,7 @@ render(){
 
 <div class="styled-table-outer"style={{marginLeft:8}}>
   <div class="tableheading" >
-<p  class ="headbar"colspan="4" >Today's Class</p>
+<p  class ="headbar"colspan="4"style={{textAlign:'left'}}><span style={{paddingLeft:12}}>Today's Class</span></p>
 <div><iframe class="youtubedashboard"  src="https://www.youtube.com/embed/il_t1WVLNxk"> </iframe><p class="youtubetitle">javascript<span class="youtubelink"><a href="/#prerequisite">prerequisite</a></span></p>
   <div style={{paddingTop: 15}}><span><button type="button" class="click">Join</button></span></div></div>
   </div>
@@ -249,60 +253,58 @@ render(){
 </div>
 <div class="styled-table-outer"style={{marginLeft: 0,marginTop: 20}}>
   <div class="tableheading" >
-<p  class ="headbar" >Codekata<span class="week">Weekly</span><span class="once">Daily</span><span class="codekata"><img src="codekata.png"></img></span></p>
+<p  class ="headbar"style={{textAlign:'left'}}><span style={{paddingLeft:12}}>Assessments</span></p>
 
   </div>
-   <p class="centre">3rd Week</p>
-<div class="styled-table-dashboardinner" >
-<ul class="yAxis">
-	<li>25</li>
+
+<div class="styled-table-dashboardinner2" >
+<ul class="yAxis2">
+	<li>50</li>
+	<li>40</li>
+	<li>30</li>
 	<li>20</li>
-	<li>15</li>
 	<li>10</li>
-	<li>05</li>
 
 </ul>
-	<div class="columns">
-  <div class="column-container" style={{paddingLeft:20}}>
-    <div class="column-bar series-b" style={{flexBasis: 200}}></div>
-    <div class="column-bar series-a" style={{flexBasis: 160}}></div>
-  </div>
-  <div class="column-container" > 
-    <div class="column-bar series-b" style={{flexBasis: 180}}></div>
-    <div class="column-bar series-a" style={{flexBasis: 140}}></div>
-  </div>
-  <div class="column-container">
-    <div class="column-bar series-b" style={{flexBasis: 180}}></div>
-    <div class="column-bar series-a" style={{flexBasis: 170}}></div>
-  </div>
-  <div class="column-container">
-    <div class="column-bar series-b" style={{flexBasis: 180}}></div>
-    <div class="column-bar series-a" style={{flexBasis: 60}}></div>
-  </div>
-  <div class="column-container">
-    <div class="column-bar series-b" style={{flexBasis: 180}}></div>
-    <div class="column-bar series-a" style={{flexBasis: 92}}></div>
-  </div>
-  <div class="column-container">
-    <div class="column-bar series-b" style={{flexBasis: 180}}></div>
-    <div class="column-bar series-a" style={{flexBasis: 130}}></div>
-  </div>
-  <div class="column-container">
-    <div class="column-bar series-b" style={{flexBasis: 180}}></div>
-    <div class="column-bar series-a" style={{flexBasis: 10}}></div>
+	<div class="columns2">
+    <div class="line-chart-block block">
+  <div class="line-chart">
+   <div class='grafico'style={{paddingTop:200}}>
+     <span data-valor='25'style={{left:80}}>
+       <span data-valor='8'style={{width:25}}>
+         <span data-valor='13'style={{width:30}}>
+           <span data-valor='5'style={{width:100}}>   
+             <span data-valor='23'style={{top:-2,left:100,width:40}}>   
+             <span data-valor='12'style={{width:20}}>
+                 <span data-valor='15'>
+                 </span>
+              </span>
+            </span>
+          </span>
+        </span>
+       </span>
+      </span>
+   </div>
   </div>
 </div>
-<ul class="xAxis">
-	<li style={{paddingLeft: 41}}>Mon</li>
-	<li style={{paddingLeft: 15}}>Tue</li>
-	<li style={{paddingLeft: 10}}>Wed</li>
-	<li style={{paddingLeft: 15}}>Thu</li>
-	<li style={{paddingLeft: 13}}>Fri</li>
-	<li style={{paddingLeft: 10}}>Sat</li>
-	<li style={{paddingLeft: 13}}>Sun</li>
+</div>
+<ul class="xAxis2">
+	<li style={{paddingLeft: 20}}>1st</li>
+	<li style={{paddingLeft: 1}}>2nd</li>
+	<li style={{paddingLeft: 1}}>3rd</li>
+	<li style={{paddingLeft: 1}}>4th</li>
+	<li style={{paddingLeft: 1}}>5th</li>
+	<li style={{paddingLeft: 1}}>6th</li>
+	<li style={{paddingLeft: 1}}>7th</li>
+  <li style={{paddingLeft: 1}}>8th</li>
+	<li style={{paddingLeft: 1}}>9th</li>
+	<li style={{paddingLeft: 1}}>10th</li>
+	<li style={{paddingLeft: 1}}>11th</li>
+	<li style={{paddingLeft: 1}}>12th</li>
 	
 </ul>
 </div>
+{/* <p class="youtubetitle">Completed<span class="youtubetitle">Mark</span><span class="youtubelink"><a href="/#prerequisite">prerequisite</a></span></p> */}
 </div>
 </div>
     )
