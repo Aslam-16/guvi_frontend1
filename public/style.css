@@ -742,3 +742,36 @@ ul.yAxis1 li {
   float: left;
   clear: left;
 }
+.youtubedashboard {
+  width: 260px;
+  padding-top: 0px;
+  margin-top: 10px;
+  border-radius: 0.3125rem;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  height: 180px;
+
+
+}
+.youtubetitle {
+
+text-align: 'left';
+height: 25px;
+padding-top: 5px;
+width: 70px;
+padding-left: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-top: 0px;
+height: 25px;
+font-size:large;
+color: black;
+padding-left: 15px;
+
+}
+.youtubelink {
+  padding-left: 130px;
+  font-size: small;
+}
